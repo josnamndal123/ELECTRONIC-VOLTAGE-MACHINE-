@@ -31,7 +31,5 @@ To design and implement an Electronic Voting Machine using Arduino that allows u
 - D5 → Pin 4
 - D6 → Pin 3
 - D7 → Pin 2
-- 
-#include <LiquidCrystal.h>
-
-LiquidCrystal lcd(7,6,5,4,3,2);
+- VSS → GND
+- VDD → 5V
