@@ -33,3 +33,22 @@ To design and implement an Electronic Voting Machine using Arduino that allows u
 - D7 → Pin 2
 - VSS → GND
 - VDD → 5V
+- 
+## Working Principle
+
+The system starts and displays "EVM READY" on the LCD.
+Each button represents a candidate.
+When a voter presses a button, one vote is added to that candidate.
+The LCD continuously displays the vote count.
+Votes are stored in variables and updated in real time
+
+## Applications
+
+- School and College Elections
+- Student Council Voting
+- Educational Projects
+- Electronic Voting Demonstrations
+
+## Conclusion
+
+The Electronic Voting Machine using Arduino is a simple and efficient system for recording and counting votes electronically. It provides quick results, reduces manual errors, and demonstrates the basic working of modern voting systems.
