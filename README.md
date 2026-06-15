@@ -16,8 +16,11 @@ To display messages on an electronic display board wirelessly using a smartphone
 ## Components Required
 
 Arduino Uno
+
 HC-05 Bluetooth Module
+
 16x2 LCD Display
+
 Breadboard
 Jumper Wires
 10k Potentiometer
