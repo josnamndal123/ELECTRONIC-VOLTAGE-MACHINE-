@@ -1,0 +1,48 @@
+#include <LiquidCrystal.h>
+
+LiquidCrystal lcd(7,6,5,4,3,2);
+
+int voteA = 0;
+int voteB = 0;
+int voteC = 0;
+
+void setup() {
+  pinMode(8, INPUT_PULLUP);
+  pinMode(9, INPUT_PULLUP);
+  pinMode(10, INPUT_PULLUP);
+
+  lcd.begin(16,2);
+  lcd.print("EVM READY");
+  delay(2000);
+  lcd.clear();
+}
+
+void loop() {
+
+  if(digitalRead(8) == LOW) {
+    voteA++;
+    delay(300);
+  }
+
+  if(digitalRead(9) == LOW) {
+    voteB++;
+    delay(300);
+  }
+
+  if(digitalRead(10) == LOW) {
+    voteC++;
+    delay(300);
+  }
+
+  lcd.setCursor(0,0);
+  lcd.print("A:");
+  lcd.print(voteA);
+
+  lcd.setCursor(8,0);
+  lcd.print("B:");
+  lcd.print(voteB);
+
+  lcd.setCursor(0,1);
+  lcd.print("C:");
+  lcd.print(voteC);
+}
