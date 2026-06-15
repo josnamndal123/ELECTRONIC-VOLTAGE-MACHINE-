@@ -4,7 +4,7 @@
 - **Domain:** `EMBEDED SYSTEMS`  
 - **Internship Duration:**  `June 12, 2026` – `July 10, 2026`
 
-## Project itle
+## Project title
 
 To measure DC voltage using Arduino and display the measured voltage value accurately.
 
